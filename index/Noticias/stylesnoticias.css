@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #145f8d;
+    padding: 10px 1;
+    display: flex ;
+    justify-content:space-between;
+    align-items: flex;
+    color: white;
+    border-radius: 60px;
+}
+
+header .logo img {
+    height: 90px;
+    margin-left: 10px;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 5;
+}
+
+nav ul li {
+    margin:  15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+/*botones de autentificacion */
+.auth-buttons {
+    margin-right: 0px;
+    text-align: center;
+ 
+    
+}
+
+.auth-buttons button {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #007bc7;
+    color: #007bc7;
+    padding: 8px 12px;
+    margin: 0 0px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.auth-buttons .register {
+    background-color: #007bc7;
+    color: white;
+    border: 3px solid white;
+}
+/*seccion de desarrollo */
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.content {
+    display: flex ;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card button {
+    background-color: #007bc7;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
